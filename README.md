@@ -5,7 +5,12 @@ Dependencies:
   * [`Erlang`](https://www.erlang-solutions.com/resources/download.html)
   * [`Elixir`](https://elixir-lang.org/install.html)
   * Phoenix (Install: `mix archive.install https://github.com/phoenixframework/archives/raw/master/phx_new.ez`)
+  * Postgres (This is a default and can be swapped out)
+  
+Environment Variables:
 
+  * The `config/dev.exs` and `config/test.exs` files specify database configuration. They search for "POSTGRES_USER" and "POSTGRES_PASS" environment variables to access the database.
+  
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
