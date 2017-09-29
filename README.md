@@ -1,5 +1,11 @@
 # PixieServer
 
+Dependencies:
+  
+  * [`Erlang`](https://www.erlang-solutions.com/resources/download.html)
+  * [`Elixir`](https://elixir-lang.org/install.html)
+  * Phoenix (Install: `mix archive.install https://github.com/phoenixframework/archives/raw/master/phx_new.ez`)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
