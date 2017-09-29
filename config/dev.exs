@@ -39,8 +39,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :pixie_server, PixieServer.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "zkayser",
-  password: System.get_env("POSTGRES"),
+  username: System.get_env("POSTGRES_USER"),
+  password: System.get_env("POSTGRES_PASS"),
   database: "pixie_server_dev",
   hostname: "localhost",
   pool_size: 10
